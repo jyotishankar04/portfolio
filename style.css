@@ -91,8 +91,9 @@ main .landing .nav .navLinks a{
     transform: scale(1.1);
     
     border-bottom: 2px solid #c202c2;
-
+    
 }
+
 main .landing .nav .navLinks .linkedinNavLogo{
     height: 30px;
 }
@@ -143,6 +144,21 @@ main .landing .nav .navLinks .linkedinNavLogo{
     background-color: #c202c2;
     transform: translateX(10px);
 }
+/* Adding the hero links to all social medias */
+
+.hero .heroLinkReferals .heroLinkIcons,
+.navLinkedIn{
+    color: #c202c2;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.hero .heroLinkReferals .heroLinkIcons:hover{
+    transform: scale(1.2);
+    color: #000;
+}
+
+
+
 
 /* --------skills----------- */
 .skills{
@@ -194,6 +210,11 @@ main .landing .nav .navLinks .linkedinNavLogo{
     transform: scale(1.1);
 }
 
+
+.skillsIconStyle{
+    color: rgb(0, 166, 255);
+    font-size: 60px;
+}
 
 
 /* end of my skills--------------- */
