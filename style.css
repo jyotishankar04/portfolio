@@ -429,7 +429,72 @@ hr{
 
 
 
+/* !Here i a adding the project part */
 
+.project{
+    width: 100%;
+    /* min-height: ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.project>h1{
+    font-size: 40px;
+    color: #232222;
+}
+.project .projectContainer{
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.projectContainer .projectDiv{
+    background-color: #b0afaf;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: #232222 0 0 10px;
+}
+
+.project .projectDiv img{
+    width: 100%;
+    border-radius: 10px ;
+    /* filter: grayscale(0); */
+}
+.project .projectDiv h1{
+    background-color: #ee79124a;
+    padding: 20px;
+    position: absolute;
+    /* bottom: 100px; */
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    color: #232222;
+}
+
+.project .projectDiv p{
+    color: #575757;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+
+.project .projectDiv:hover{
+    transform: scale(1.02);
+}
+.project .projectDiv:hover h1{
+    top: 60%;
+    transform: translateY(-50%);
+    border-radius: 0px;
+}
 
 
 
@@ -530,5 +595,11 @@ hr{
 
     .footer .footerLeft{
         display: none;
+    }
+    .project{
+        width: 100%;
+    }
+    .project .projectContainer{
+        grid-template-columns: 1fr;
     }
 }
