@@ -6,9 +6,12 @@ let flag = 0;
 function openMenu() {
   if (flag === 0) {
     smallMenu.style.display = "block";
+    menuBtn.classList.add("fa-xmark");
     flag = 1;
   } else {
     smallMenu.style.display = "none";
+    menuBtn.classList.add("fa-bars");
+    menuBtn.classList.remove("fa-xmark");
     flag = 0;
   }
 }

@@ -495,12 +495,41 @@ hr{
     transform: translateY(-50%);
     border-radius: 0px;
 }
+/* !Adding source and visit button */
+.project button{
+    border-radius: 2px;
+    border: none;
+    background-color:#ee7912a7 ;
+    padding: 5px 20px;
+    color: #232222;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+}
 
+.projectBtnBox .VisitWesite:hover{
+    color: #ee7912ce;
+    background-color: #232222;
+    
+}
+.projectBtnBox .SourceCode{
+    cursor: pointer;
+    background-color: #232222;
+    color: #ee7912ce;
+}
 
+.projectBtnBox .SourceCode:hover{
+    background-color:#ee7912a7 ;
+    color: #232222;
+}
 
+.project .projectBtnBox{
 
-
-
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
 
 
 
