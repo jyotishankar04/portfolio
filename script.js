@@ -26,8 +26,7 @@ var typed = new Typed(".animeText", {
   typeSpeed: 150,
   backSpeed: 150,
   loop: true,
-});
-
+});
 
 
 
