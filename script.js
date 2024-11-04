@@ -14,6 +14,8 @@ function openMenu() {
     menuBtn.classList.remove("fa-xmark");
     flag = 0;
   }
+
+
 }
 
 menuBtn.addEventListener("click", () => {
